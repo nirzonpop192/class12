@@ -14,12 +14,12 @@ void main(List<String> arguments) {
   // ******* calling pure anonymous function***********
   .call();
 //********* calling global anonymous function ***********
- // dim();
+ // dimVariable();
 
 }
 
-// anonymous global function
-var dim=(){
+// anonymous global function but named variable
+var dimVariable=(){
   var thisYear=2021;
   int age=22;
   var futureYear=2030;
